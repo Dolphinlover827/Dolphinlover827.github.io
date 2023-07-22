@@ -1,10 +1,81 @@
 <html>
-<head>
-<title> Portfolio </title>
-</head>
-<body>
-<h1> My Portfolio </h1>
-<a href="Website/index.html"> My First Website Project </a>
+  <head>
+    <title> Summer </title>
+    <script>
+     function banner(){
+      var text = confirm("You should click!");
+       return text;
+     }
+     function answer(){var radio= document.getElementsByName("trivia"); var selection = false; var message = ""
+     for(var i = 0; i < radio.length; i++) {
+      if(radio[i].value == "yes" && radio[i].checked == true) {selection = true;
+      }
+    }
 
-</body>
+        if(selection == true) {
+          message = message + "<b><p style='colorgreen'>Way to go!</p></b>";
+        }
+        document.getElementById("response").innerHTML = message;
+      }
+  
+     
+    </script>
+    <style>
+    
+    </style>
+    <link type= "text/css" rel= "stylesheet" href="main.css" />
+  </head>
+  <body id="body">
+   <a onclick="return banner()" href="positions.html"> <header id="banner"> Welcome to my Website! </header> </a>
+    <header id="filler"> <i>  Summer </i> </header>
+    <nav> 
+      <ul id="navmenu">
+       <li class="navitem"> <a href="index.html"> Summer </a> </li>
+       <li class="navitem"> <a href= "photos.html"> Photos </a> </li> 
+       <li class="navitem"> <a href= "books.html"> Books </a> </li>
+     </ul>
+  </nav>
+
+  	<h1 class="title"> Summer Fun </h1>
+  	<p class="green"> <strong>Summer</strong> is the greatest season, with many things to do including going to the beach,<u>swimming</u>, having fun with friends and not having to go to school. I love the summer also because my <i>birthday</i> is in the summer. </p>
+    <div class="rightside">
+  	<center> <big> <strong class="reas"> Reasons To Love Summer </strong> </big> </center>
+  	<div class= "list">
+    <ol>
+       <li class= "blue"> The best TV shows come out(The Summer I Turned Pretty) </li>
+       <li class= "blue"> Camping season is in it's peak </li>
+       <li class= "blue"> Swimming with friends </li>
+    </ol>
+  </div>
+  <br>
+
+
+   <h2 class="triv"> Swimming Trivia Question </h2>
+   <div class= "trivia">
+    <p> What is the final stroke in a Medley Relay? </p>
+    <form> 
+      <div id= "response"> </div>
+     <input type="radio" name= "trivia" value= "no"> Butterfly <br> 
+     <input type= "radio" name= "trivia" value= "no"> Backstroke <br>
+     <input type= "radio" name= "trivia" value= "no"> Breaststroke <br>
+     <input type= "radio" name= "trivia" value= "yes"> Freestyle <br>
+     <input id="button" onclick="answer()" type="button" value="Submit Your Answers!!">
+   </form>
+ </div>
+ <br>
+  </div>
+ <div class= "leftside">
+     <img id= "summer" src= "https://images.stockfreeimages.com/11558/sfixl/115589143.jpg" />
+     <iframe width="500" height="250" src="https://www.youtube.com/embed/r-V_r0UTs0grel=0"> Sorry that you don't get to watch!</iframe> 
+     <audio width="550" height= "300" controls autoplay>
+       <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+        Sorry that you can't hear my pet horse!
+      </audio>
+    <img id= "beach" src= "https://images.stockfreeimages.com/1973/sfixl/19738714.jpg" />
+    </div>
+    <div class= "clearfloat"></div>
+    <hr />
+   <center> Addisyn Budnick <a href="https://www.roblox.com/">Cool Website        For    Games</a> </center>
+   <footer id="footer">Created by: Addisyn Budnick </footer>
+  </body>
 </html>
