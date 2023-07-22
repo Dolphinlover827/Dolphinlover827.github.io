@@ -1,0 +1,29 @@
+p{color: purple; font-size: 25px; margin-bottom:50px;}
+.blue{color:blue; font-size:15px;}
+.green{color:indigo; font-size:25px;}
+#body {background-color: skyblue}
+#button {height:230px; width:250px; color:yellow; background-color:blue; border-radius:15px;}
+#banner {height:60px; width:200px; border:5px solid black; background-color: #3480E5; font-size:25px; color:white; margin-bottom: 30px;}
+#footer {height:60px; width:200px; border: 5px solid black; background-color: #3480E5; font-size: 25px; color:white;}
+.list{border-width: 350px;  border-height:200px; border:10px solid lightgreen; font-size:27px; padding: 50px;}
+.trivia{border-height:200px; border-width: 350px; border:10px solid lightgreen; margin-bottom:50px; padding: 50px;}
+#hello {width:150px; height:150px; background-color: lightyellow; display:inline-block; position:absolute; z-index: 2;}
+#conversation {width:150px; height: 150px; background-color:purple; display:inline-block; position:relative; left:500; top:350;}
+#end {width: 150px; height: 150px; background-color:lightblue; display:inline-block; position: fixed; left:25%;}
+#background-h {height: 2048px;}
+.title {font-size:50px; top:20px;}
+.reas {font-size:40px; margin-bottom: 25px;}
+.triv {font-size:40px;position:relative; top:20px;}
+.navitem{list-style-type:none; display:inline;margin:25px; padding:10px;}
+#navmenu {text-align:center; background-color:lightblue; color:white;} 
+a:link {color:indigo;}
+a:visited {color:green;}
+a:hover {color:orange;}
+a:active {color:yellow;}
+.rightside {float:right; width:48%;}
+.leftside {width:48%;}
+.clearfloat {clear:both;}
+#summer {width: 300
+	; height: 150; margin-bottom:10px;}
+#beach {height:400; margin-top:10px;}
+#filler {text-align:center;position:relative; bottom:40px; font-size:50;}
